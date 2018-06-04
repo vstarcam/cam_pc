@@ -1,0 +1,299 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\TestP2P.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TestP2P.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 TestP2P"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "TestP2P，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_TESTP2P_DIALOG DIALOGEX 0, 0, 483, 318
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "P2PAPIDemo"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "1Initial",IDC_BTN_INITIAL,19,39,50,14
+    PUSHBUTTON      "DeInitial",IDC_BTN_DEINITIAL,71,39,50,14
+    PUSHBUTTON      "5Connect",IDC_BTN_CONNECT,19,71,50,14
+    PUSHBUTTON      "6StartVideo",IDC_BTN_START_VIDEO,21,139,50,14
+    PUSHBUTTON      "StopVideo",IDC_BTN_STOP_VIDEO,79,139,50,14
+    PUSHBUTTON      "2CreateInstance",IDC_BTN_CREATE_INSTANCE,19,55,60,14
+    PUSHBUTTON      "DestroyInstance",IDC_BTN_DESTROY_INSTANCE2,81,55,65,14
+    PUSHBUTTON      "4SetAVDataCallBack",IDC_BTN_SET_AVDATACALLBACK,19,23,77,14
+    PUSHBUTTON      "3SetMessageCallBack",IDC_BTN_SET_MESSAGE_CALLBACK,100,23,70,14
+    PUSHBUTTON      "StartAudio",IDC_BTN_START_AUDIO,21,154,50,14
+    PUSHBUTTON      "StopAudio",IDC_BTN_STOP_AUDIO,79,154,50,14
+    PUSHBUTTON      "Close",IDC_BTN_CLOSE_P2P,71,71,50,14
+    PUSHBUTTON      "CloseAll",IDC_BTN_CLOSE_ALL,124,71,50,14
+    PUSHBUTTON      "DestroyAllInstance",IDC_BTN_DESTROY_ALL_INSTANCE,149,55,67,14
+    PUSHBUTTON      "GetCameraParams",IDC_BTN_GET_CAMERA_PARAMS,246,22,81,14
+    PUSHBUTTON      "Snapshot",IDC_BTN_SNAPSHOT,386,39,50,14
+    PUSHBUTTON      "Up",IDC_BTN_DECODER_CONTROL,46,222,26,14
+    PUSHBUTTON      "CameraControl",IDC_BTN_CAMERA_CONTROL,318,134,85,14
+    PUSHBUTTON      "SetNetwork",IDC_BTN_SET_NETWORK,249,134,66,14
+    PUSHBUTTON      "Reboot",IDC_BTN_REBOOT,410,134,50,14
+    PUSHBUTTON      "Restore factory",IDC_BTN_RESTORE,249,152,73,14
+    PUSHBUTTON      "WifiScan",IDC_BTN_WIFI_SCAN,405,22,50,14
+    PUSHBUTTON      "GetParams",IDC_BTN_GET_PARAMS,335,22,62,14
+    PUSHBUTTON      "GetStatus",IDC_BTN_GET_STATUS,246,39,62,14
+    PUSHBUTTON      "GetPTZParams",IDC_BTN_GET_PTZ_PARAMS,246,56,62,14
+    PUSHBUTTON      "GetAlarmLog",IDC_BTN_GET_ALARM_LOG,314,39,65,14
+    PUSHBUTTON      "StartTalk",IDC_BTN_START_Talk,22,170,50,14
+    PUSHBUTTON      "StopTalk",IDC_BTN_STOP_TALK,78,170,50,14
+    GROUPBOX        "Audio & Video",IDC_STATIC,7,117,218,78
+    GROUPBOX        "Decoder Control",IDC_STATIC,7,208,106,65
+    PUSHBUTTON      "Down",IDC_BTN_DECODER_CONTROL_DOWN,47,252,26,14
+    PUSHBUTTON      "Left",IDC_BTN_DECODER_CONTROL_LEFT,26,237,26,14
+    PUSHBUTTON      "Right",IDC_BTN_DECODER_CONTROL_RIGHT,67,237,26,14
+    GROUPBOX        "Base API",IDC_STATIC,7,7,218,100
+    GROUPBOX        "Get Camera Setting",IDC_STATIC,234,7,242,101
+    GROUPBOX        "Camera Setting",IDC_STATIC,232,117,244,111
+    PUSHBUTTON      "SetDatetime",IDC_BTN_SET_DATE,325,152,50,14
+    PUSHBUTTON      "SetUser",IDC_BTN_SET_USER,249,169,50,14
+    PUSHBUTTON      "SetWifi",IDC_BTN_SET_WIFI,309,169,50,14
+    PUSHBUTTON      "SetMail",IDC_BTN_SET_MAIL,367,169,50,14
+    PUSHBUTTON      "SetFtp",IDC_BTN_SET_FTP,249,187,50,14
+    PUSHBUTTON      "SetAlarm",IDC_BTN_SET_ALARM,308,187,50,14
+    PUSHBUTTON      "SetDeviceName",IDC_BTN_SET_DEVICE_NAME,367,187,67,14
+    PUSHBUTTON      "SetPtz",IDC_BTN_SET_PTZ,249,205,50,14
+    CONTROL         "",IDC_PLAY_RECT,"Static",SS_BLACKFRAME,119,206,104,87
+    PUSHBUTTON      "SetPreSet",IDC_BTN_SETPRESET,308,205,50,14
+    PUSHBUTTON      "GetPreSet",IDC_BTN_GETPRESET,317,56,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "TestP2P.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "TestP2P.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_TESTP2P_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 476
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 311
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_SETPRESET MENU 
+BEGIN
+    POPUP "设置预置位"
+    BEGIN
+        MENUITEM "1",                           ID_SETPRESET1
+        MENUITEM "2",                           ID_SETPRESET2
+        MENUITEM "3",                           ID_SETPRESET3
+        MENUITEM "4",                           ID_SETPRESET4
+        MENUITEM "5",                           ID_SETPRESET5
+        MENUITEM "6",                           ID_SETPRESET6
+        MENUITEM "7",                           ID_SETPRESET7
+        MENUITEM "8",                           ID_SETPRESET8
+        MENUITEM "9",                           ID_SETPRESET9
+        MENUITEM "10",                          ID_SETPRESET10
+        MENUITEM "11",                          ID_SETPRESET11
+        MENUITEM "12",                          ID_SETPRESET12
+        MENUITEM "13",                          ID_SETPRESET13
+        MENUITEM "14",                          ID_SETPRESET14
+        MENUITEM "15",                          ID_SETPRESET15
+        MENUITEM "16",                          ID_SETPRESET16
+    END
+END
+
+IDR_MENU_GETPRESET MENU 
+BEGIN
+    POPUP "转动到预置位菜单"
+    BEGIN
+        MENUITEM "1",                           ID_GETPRESET1
+        MENUITEM "2",                           ID_GETPRESET2
+        MENUITEM "3",                           ID_GETPRESET3
+        MENUITEM "4",                           ID_GETPRESET4
+        MENUITEM "5",                           ID_GETPRESET5
+        MENUITEM "6",                           ID_GETPRESET6
+        MENUITEM "7",                           ID_GETPRESET7
+        MENUITEM "8",                           ID_GETPRESET8
+        MENUITEM "9",                           ID_GETPRESET9
+        MENUITEM "10",                          ID_GETPRESET10
+        MENUITEM "11",                          ID_GETPRESET11
+        MENUITEM "12",                          ID_GETPRESET12
+        MENUITEM "13",                          ID_GETPRESET13
+        MENUITEM "14",                          ID_GETPRESET14
+        MENUITEM "15",                          ID_GETPRESET15
+        MENUITEM "16",                          ID_GETPRESET16
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 TestP2P(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\TestP2P.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

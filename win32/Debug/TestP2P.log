@@ -1,0 +1,48 @@
+﻿生成启动时间为 2018/2/1 17:36:42。
+     1>项目“F:\Work\SDK_TPNP\SDK_TPNP_NDA-20171214\Demo\win32\TestP2P.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\TestP2P.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\TestP2P.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\TestP2P.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>f:\work\sdk_tpnp\sdk_tpnp_nda-20171214\demo\win32\libavutil\common.h(174): warning C4244: “return”: 从“int64_t”转换到“int32_t”，可能丢失数据
+     1>f:\work\sdk_tpnp\sdk_tpnp_nda-20171214\demo\win32\libavutil\common.h(233): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TestP2P.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Adpcm.cpp TestP2P.cpp TestP2PDlg.cpp DirectXDraw.cpp VideoBuf.cpp VideoDecoder.cpp VideoPlayer.cpp waveIn.cpp waveOut.cpp
+         waveOut.cpp
+         waveIn.cpp
+         VideoPlayer.cpp
+         VideoDecoder.cpp
+         VideoBuf.cpp
+         DirectXDraw.cpp
+         TestP2PDlg.cpp
+         TestP2P.cpp
+         Adpcm.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0804" /IDebug\ /nologo /fo"Debug\TestP2P.res" TestP2P.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Work\SDK_TPNP\SDK_TPNP_NDA-20171214\Demo\win32\Debug\TestP2P.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\Work\SDK_TPNP\SDK_TPNP_NDA-20171214\Demo\win32\\TestP2P\lib" Debug\avcodec.lib Debug\avdevice.lib Debug\avfilter.lib Debug\avformat.lib Debug\avutil.lib Debug\swscale.lib /MANIFEST /ManifestFile:"Debug\TestP2P.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Work\SDK_TPNP\SDK_TPNP_NDA-20171214\Demo\win32\Debug\TestP2P.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Work\SDK_TPNP\SDK_TPNP_NDA-20171214\Demo\win32\Debug\TestP2P.lib" /MACHINE:X86 Debug\TestP2P.res
+         Debug\Adpcm.obj
+         Debug\stdafx.obj
+         Debug\TestP2P.obj
+         Debug\TestP2PDlg.obj
+         Debug\DirectXDraw.obj
+         Debug\VideoBuf.obj
+         Debug\VideoDecoder.obj
+         Debug\VideoPlayer.obj
+         Debug\waveIn.obj
+         Debug\waveOut.obj
+     1>Adpcm.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+         TestP2P.vcxproj -> F:\Work\SDK_TPNP\SDK_TPNP_NDA-20171214\Demo\win32\Debug\TestP2P.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Work\SDK_TPNP\SDK_TPNP_NDA-20171214\Demo\win32\Debug\TestP2P.exe;#1" /manifest Debug\TestP2P.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\TestP2P.unsuccessfulbuild”。
+         正在对“Debug\TestP2P.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Work\SDK_TPNP\SDK_TPNP_NDA-20171214\Demo\win32\TestP2P.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.84
